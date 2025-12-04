@@ -76,8 +76,8 @@ const BeforeAfterSlider = () => {
             <img
               src={beforeImage}
               alt="Before renovation"
-              className="absolute inset-0 w-full h-full object-cover"
-              style={{ width: `${containerRef.current?.offsetWidth || 0}px` }}
+              className="absolute top-0 left-0 h-full object-cover"
+              style={{ width: `${containerRef.current?.offsetWidth}px`, maxWidth: 'none' }}
               draggable={false}
             />
           </div>
