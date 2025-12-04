@@ -1,5 +1,5 @@
 import { useState, useRef, useCallback } from "react";
-import beforeImage from "@/assets/portfolio/bathroom-2.jpeg";
+import beforeImage from "@/assets/portfolio/before.png";
 import afterImage from "@/assets/portfolio/bathroom-1.jpeg";
 
 const BeforeAfterSlider = () => {
