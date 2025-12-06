@@ -16,7 +16,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container-main pt-24 pb-32">
         <div className="max-w-3xl">
-          <p className="text-terracotta font-semibold tracking-wide uppercase mb-4 animate-fade-up">
+          <p className="text-cream font-semibold tracking-wide uppercase mb-4 animate-fade-up drop-shadow-md">
             San Diego's Trusted Builders Since 2015
           </p>
           <h1 className="heading-display text-cream mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
