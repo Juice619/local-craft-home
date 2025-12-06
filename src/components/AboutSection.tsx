@@ -5,7 +5,7 @@ const AboutSection = () => {
   const highlights = [
     "Family-owned and operated since 2015",
     "Licensed General Contractor #1098547",
-    "Fully insured with $2M liability coverage",
+    "Fully insured",
     "500+ successful projects completed",
     "Local San Diego craftsmen",
     "Transparent pricing, no hidden fees",
