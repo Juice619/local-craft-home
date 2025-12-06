@@ -39,7 +39,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
             {/* Company Info */}
             <div className="lg:col-span-2">
-              <img src={logo} alt="2 Bros Construction" className="h-48 mb-4" />
+              <img src={logo} alt="2 Bros Construction" className="h-48 mb-1" />
               <p className="text-cream/70 mb-2">
                 <span className="font-semibold text-cream">Jonathan Guerrero & Ulises Sotelo</span>
               </p>
