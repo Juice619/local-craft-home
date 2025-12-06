@@ -22,7 +22,7 @@ const projects = [
 
 const PortfolioGallery = () => {
   return (
-    <section className="section-padding bg-background">
+    <section id="portfolio" className="section-padding bg-background">
       <div className="container-main">
         <div className="text-center mb-12">
           <p className="text-terracotta font-semibold tracking-wide uppercase mb-3">
