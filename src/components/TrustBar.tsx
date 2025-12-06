@@ -4,7 +4,7 @@ const TrustBar = () => {
   const badges = [
     { icon: Shield, label: "Licensed & Insured" },
     { icon: Award, label: "BBB Accredited" },
-    { icon: CheckCircle, label: "NARI Member" },
+    { icon: CheckCircle, label: "Professional" },
     { icon: Star, label: "5-Star Rated" },
   ];
 
