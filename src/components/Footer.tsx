@@ -14,13 +14,22 @@ const Footer = () => {
             Get a free, no-obligation estimate for your home improvement project.
             We'll visit your home and provide a detailed proposal within 48 hours.
           </p>
-          <a
-            href="tel:+16195550123"
-            className="inline-flex items-center gap-2 bg-cream text-charcoal font-semibold px-8 py-4 rounded-md hover:bg-cream/90 transition-colors text-lg"
-          >
-            <Phone className="w-5 h-5" />
-            (619) 555-0123
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="tel:+16194961364"
+              className="inline-flex items-center gap-2 bg-cream text-charcoal font-semibold px-8 py-4 rounded-md hover:bg-cream/90 transition-colors text-lg"
+            >
+              <Phone className="w-5 h-5" />
+              (619) 496-1364
+            </a>
+            <a
+              href="tel:+18584298474"
+              className="inline-flex items-center gap-2 bg-cream text-charcoal font-semibold px-8 py-4 rounded-md hover:bg-cream/90 transition-colors text-lg"
+            >
+              <Phone className="w-5 h-5" />
+              (858) 429-8474
+            </a>
+          </div>
         </div>
       </div>
 
@@ -31,6 +40,9 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <img src={logo} alt="2 Bros Construction" className="h-12 mb-4 brightness-0 invert" />
+              <p className="text-cream/70 mb-2">
+                <span className="font-semibold text-cream">Jonathan Guerrero & Ulises Sotelo</span>
+              </p>
               <p className="text-cream/70 mb-6 max-w-md">
                 Family-owned residential construction and remodeling serving San
                 Diego County since 2015. Licensed, insured, and committed to
@@ -40,7 +52,7 @@ const Footer = () => {
                 <span className="bg-terracotta/20 text-terracotta px-2 py-1 rounded">
                   Licensed & Insured
                 </span>
-                <span>CA Contractor License #1098547</span>
+                <span>CA Contractor License #1117495</span>
               </div>
             </div>
 
@@ -49,11 +61,18 @@ const Footer = () => {
               <h3 className="font-display text-lg font-semibold mb-4">Contact</h3>
               <div className="space-y-4">
                 <a
-                  href="tel:+16195550123"
+                  href="tel:+16194961364"
                   className="flex items-start gap-3 text-cream/70 hover:text-cream transition-colors"
                 >
                   <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                  <span>(619) 555-0123</span>
+                  <span>(619) 496-1364</span>
+                </a>
+                <a
+                  href="tel:+18584298474"
+                  className="flex items-start gap-3 text-cream/70 hover:text-cream transition-colors"
+                >
+                  <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
+                  <span>(858) 429-8474</span>
                 </a>
                 <a
                   href="mailto:info@2brosconstruction.com"
