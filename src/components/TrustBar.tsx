@@ -3,7 +3,7 @@ import { Shield, Award, CheckCircle, Star } from "lucide-react";
 const TrustBar = () => {
   const badges = [
     { icon: Shield, label: "Licensed & Insured" },
-    { icon: Award, label: "BBB Accredited" },
+    { icon: Award, label: "Quality Service" },
     { icon: CheckCircle, label: "Professional" },
     { icon: Star, label: "5-Star Rated" },
   ];
