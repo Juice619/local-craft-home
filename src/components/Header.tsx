@@ -34,10 +34,12 @@ const Header = () => {
               {navItems.map(item => <a key={item.label} href={item.href} className="text-cream/90 hover:text-cream transition-colors font-medium">
                   {item.label}
                 </a>)}
-              <Button variant="accent" size="lg">
-                <Phone className="w-4 h-4" />
-                (619) 496-1364
-              </Button>
+              <a href="tel:+16194961364">
+                <Button variant="accent" size="lg">
+                  <Phone className="w-4 h-4" />
+                  (619) 496-1364
+                </Button>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -60,7 +62,7 @@ const Header = () => {
       {/* Sticky Mobile CTA Bar */}
       <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-charcoal border-t border-border/20 px-4 py-3 shadow-lg">
         <div className="flex items-center justify-between gap-3">
-          <a href="tel:+16195550123" className="flex-1">
+          <a href="tel:+16194961364" className="flex-1">
             <Button variant="accent" className="w-full" size="lg">
               <Phone className="w-4 h-4" />
               Call Now
