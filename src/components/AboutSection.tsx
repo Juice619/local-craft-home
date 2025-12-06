@@ -41,13 +41,13 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground mb-8">
               <p>
-                What started as two brothers helping neighbors with home repairs
+                What began as two brothers helping neighbors with home repairs
                 has grown into one of San Diego's most trusted residential
-                construction companies. We still bring that same neighborly
+                construction companies. Today, we still bring that same neighborly
                 approach to every project.
               </p>
               <p>
-                We believe in doing things right the first time—quality
+                We believe in doing things right the first time. Using quality
                 materials, skilled craftsmanship, and honest communication. When
                 you work with 2 Bros, you're working with family.
               </p>
