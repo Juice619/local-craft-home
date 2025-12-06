@@ -84,8 +84,8 @@ const Footer = () => {
                 <div className="flex items-start gap-3 text-cream/70">
                   <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
                   <address className="not-italic">
-                    4567 Mission Boulevard<br />
-                    San Diego, CA 92109
+                    P.O. Box (Pending)<br />
+                    San Diego, CA
                   </address>
                 </div>
               </div>
