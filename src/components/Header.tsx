@@ -24,9 +24,9 @@ const Header = () => {
       {/* Desktop Header */}
       <header className="absolute top-0 left-0 right-0 z-50 bg-transparent">
         <div className="container-main">
-          <nav className="flex items-center justify-between py-4">
-            <a href="/" className="flex items-center gap-3">
-              <img src={logo} alt="2 Bros Construction" className="h-32 lg:h-48 w-auto" />
+          <nav className="flex items-center justify-between py-1">
+            <a href="/" className="flex items-center">
+              <img src={logo} alt="2 Bros Construction" className="h-32 lg:h-48 w-auto -my-4" />
             </a>
 
             {/* Desktop Nav */}
