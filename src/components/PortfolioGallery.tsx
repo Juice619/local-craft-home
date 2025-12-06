@@ -1,10 +1,10 @@
-import bathroom1 from "@/assets/portfolio/bathroom-1.jpeg";
+import project1 from "@/assets/portfolio/IMG_1207.jpeg";
 import kitchen from "@/assets/portfolio/kitchen.jpeg";
 import shower from "@/assets/portfolio/shower.jpeg";
 
 const projects = [
   {
-    image: bathroom1,
+    image: project1,
     title: "Master Bath Suite",
     location: "La Jolla",
   },
