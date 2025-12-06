@@ -5,7 +5,7 @@ import shower from "@/assets/portfolio/shower.jpeg";
 const projects = [
   {
     image: project1,
-    title: "Master Bath Suite",
+    title: "Pebble Stone Shower",
     location: "La Jolla",
   },
   {
