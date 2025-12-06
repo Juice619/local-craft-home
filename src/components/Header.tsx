@@ -26,7 +26,7 @@ const Header = () => {
         <div className="container-main">
           <nav className="flex items-center justify-between py-4">
             <a href="/" className="flex items-center">
-              <img src={logo} alt="2 Bros Construction" className="h-16 lg:h-20 w-auto" />
+              <img src={logo} alt="2 Bros Construction" className="h-48 lg:h-60 w-auto" />
             </a>
 
             {/* Desktop Nav */}
