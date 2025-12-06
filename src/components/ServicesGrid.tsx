@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Bath, ChefHat, Home, Hammer, PaintBucket, TreePine, CheckCircle2 } from "lucide-react";
+import { Bath, ChefHat, Home, Hammer, PaintBucket, TreePine, CheckCircle2, Send } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Dialog,
@@ -8,7 +8,8 @@ import {
   DialogTitle,
   DialogDescription,
 } from "@/components/ui/dialog";
-
+import { Button } from "@/components/ui/button";
+import ContactModal from "@/components/ContactModal";
 const services = [
   {
     icon: Home,
@@ -98,6 +99,7 @@ const services = [
 
 const ServicesGrid = () => {
   const [selectedService, setSelectedService] = useState<typeof services[0] | null>(null);
+  const [isContactOpen, setIsContactOpen] = useState(false);
 
   return (
     <section id="services" className="section-padding bg-background">
@@ -173,11 +175,24 @@ const ServicesGrid = () => {
                   <h4 className="font-semibold text-foreground mb-2">Quick Guide</h4>
                   <p className="text-muted-foreground text-sm">{selectedService.guide}</p>
                 </div>
+
+                <Button 
+                  className="w-full" 
+                  onClick={() => {
+                    setSelectedService(null);
+                    setIsContactOpen(true);
+                  }}
+                >
+                  <Send className="w-4 h-4 mr-2" />
+                  Get a Free Quote
+                </Button>
               </div>
             </>
           )}
         </DialogContent>
       </Dialog>
+
+      <ContactModal open={isContactOpen} onOpenChange={setIsContactOpen} />
     </section>
   );
 };
