@@ -4,7 +4,7 @@ import framingImage from "@/assets/portfolio/framing.jpeg";
 const AboutSection = () => {
   const highlights = [
     "Family-owned and operated since 2015",
-    "Licensed General Contractor #1098547",
+    "Licensed General Contractor #1117495",
     "Fully insured",
     "500+ successful projects completed",
     "Local San Diego craftsmen",
